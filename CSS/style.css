@@ -1,0 +1,44 @@
+.navBar {
+    color: black;  
+    background-color: white; 
+}
+
+body{
+    color:black; 
+}
+
+.nav-wrapper {
+    background-color: white; 
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    color: black;
+}
+
+h3, h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.parallax-container {
+    max-height: 220px;  
+    line-height: 0;
+    opacity: .9;
+    background-image: url("/Users/mariamchaudry/gtcbc/homework/Mariam Portfolio/CSS/abstract-background-canvas-249798.jpg");    
+}
+
+.parallax {
+    display: block;
+}
+
+#picture2 {
+    background-image: url("/Users/mariamchaudry/gtcbc/homework/Mariam Portfolio/CSS/abstract-art-artistic-325649.jpg")
+}
+
+.portfolioImage {
+    width: 33%;
+    height: 275px; 
+    display: inline-block; 
+    float: left; 
+    border: 0 none;
+    opacity: 0.8;
+}
