@@ -1,3 +1,7 @@
+/* ------------------ /*
+ * Navigation Bar 
+/* ------------------ */
+
 .navBar {
     color: black;  
     background-color: white; 
@@ -18,10 +22,17 @@ body{
     
 }
 
+/* ------------------ /*
+ * Typography  
+/* ------------------ */
+
 h3, h5 {
     font-family: 'Roboto', sans-serif;
 }
 
+/* ------------------ /*
+ * Parallax   
+/* ------------------ */
 .parallax-container {
     height: auto; 
     max-height: 220px;  
@@ -33,6 +44,14 @@ h3, h5 {
     width: 100%;
   }
   
+  .parallax {
+    height: auto; 
+    min-height: 100px; 
+    line-height: 0;
+    width: 100%; 
+    color: rgba(255,255,255,.9);
+}
+
   @media only screen and (max-width : 992px) {
     .parallax-container .section {
       position: absolute;
@@ -49,14 +68,6 @@ h3, h5 {
     }
   }
   
-.parallax {
-    height: auto; 
-    min-height: 100px; 
-    line-height: 0;
-    width: 100%; 
-    color: rgba(255,255,255,.9);
-}
-
   .icon-block {
     padding: 0 15px;
   }
@@ -68,11 +79,25 @@ h3, h5 {
     margin: 0;
   }
   
-  .portfolioImage {
-    width: 33%;
+  /* .portfolioImage {
+    width: 38%;
     height: 275px; 
     display: inline-block; 
     float: left; 
     border: 0 none;
-    opacity: 0.8;
+    
+  } */
+
+.box {
+    position: relative;
+    clear: both; 
+    margin: auto;
+}
+
+#portfolioImage {
+    position: relative; 
+    display: inline-block; 
+    width: 355px; 
+    height: 225px; 
+    float: left; 
 }
