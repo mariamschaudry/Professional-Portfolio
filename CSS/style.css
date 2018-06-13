@@ -13,6 +13,9 @@ body{
     box-shadow: none;
     border: none;
     color: black;
+    padding-left: 50px; 
+    position:relative; 
+    
 }
 
 h3, h5 {
@@ -20,21 +23,52 @@ h3, h5 {
 }
 
 .parallax-container {
+    height: auto; 
     max-height: 220px;  
     line-height: 0;
-    opacity: .9;
-    /* background-image: url("/Users/mariamchaudry/gtcbc/homework/Mariam Portfolio/Professional-Portfolio/CSS/abstract-background-canvas-249798.jpg");     */
+    width: 100%; 
+    color: rgba(255,255,255,.9);
 }
-
+    .parallax-container .section {
+    width: 100%;
+  }
+  
+  @media only screen and (max-width : 992px) {
+    .parallax-container .section {
+      position: absolute;
+      top: 40%;
+    }
+    #index-banner .section {
+      top: 10%;
+    }
+  }
+  
+  @media only screen and (max-width : 600px) {
+    #index-banner .section {
+      top: 0;
+    }
+  }
+  
 .parallax {
-    display: block;
+    height: auto; 
+    min-height: 100px; 
+    line-height: 0;
+    width: 100%; 
+    color: rgba(255,255,255,.9);
 }
 
-#picture2 {
-    background-image: url("/Users/mariamchaudry/gtcbc/homework/Mariam Portfolio/Professional-Portfolio/CSS/abstract-background-canvas-249798.jpg")
-}
-
-.portfolioImage {
+  .icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+  
+  footer.page-footer {
+    margin: 0;
+  }
+  
+  .portfolioImage {
     width: 33%;
     height: 275px; 
     display: inline-block; 
