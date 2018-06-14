@@ -92,12 +92,30 @@ h3, h5 {
     position: relative;
     clear: both; 
     margin: auto;
+    text-align: center; 
+}
+
+.box h2 {
+    font-size: 20px; 
+}
+
+figcaption {
+    z-index: 1000;
+    white-space: nowrap;
 }
 
 #portfolioImage {
     position: relative; 
-    display: inline-block; 
+    display: block; 
     width: 355px; 
     height: 225px; 
     float: left; 
+}
+
+#portfolioImage2 {
+    position: relative; 
+    display: block; 
+    width: 355px; 
+    height: 225px; 
+    float: right; 
 }
